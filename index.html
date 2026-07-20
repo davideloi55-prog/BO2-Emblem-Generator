@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,33 +16,31 @@
 
     <p>Versão 0.3</p>
 
-    <button id="imageButton">
-        📷 Escolher Imagem
-    </button>
-
     <input
         type="file"
         id="imageInput"
         accept="image/*"
         style="display:none;">
 
+    <label for="imageInput" class="buttonLabel">
+        📷 Escolher Imagem
+    </label>
+
     <br><br>
 
     <img
         id="preview"
         src=""
-        style="
-        display:none;
-        max-width:100%;
-        border-radius:10px;
-        border:2px solid #555;">
+        style="display:none;max-width:100%;border-radius:10px;">
+
+    <br><br>
 
     <button id="generateButton">
         🎨 Gerar Código
     </button>
 
     <div id="result">
-        Nenhum código gerado.
+        Nenhuma imagem carregada.
     </div>
 
 </div>
@@ -51,5 +48,4 @@
 <script src="app.js"></script>
 
 </body>
-
 </html>

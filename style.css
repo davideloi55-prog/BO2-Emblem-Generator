@@ -24,21 +24,52 @@ p{
     color:#ccc;
 }
 
-button{
+button,
+.buttonLabel{
+
+    display:block;
     width:100%;
+    box-sizing:border-box;
+
     padding:15px;
+
     margin-top:15px;
+
     border:none;
     border-radius:10px;
+
     background:#ff9800;
+
     color:white;
+
     font-size:18px;
+
+    text-align:center;
+
     cursor:pointer;
+
+}
+
+.buttonLabel:hover{
+    opacity:0.9;
+}
+
+#preview{
+
+    width:100%;
+
+    margin-top:20px;
+
 }
 
 #result{
+
     margin-top:20px;
+
     background:#222;
+
     padding:15px;
+
     border-radius:10px;
+
 }

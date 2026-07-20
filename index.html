@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +15,35 @@
 
     <h1>BO2 Emblem Generator</h1>
 
-    <p>Versão 0.1</p>
+    <p>Versão 0.3</p>
 
     <button id="imageButton">
-        Escolher Imagem
+        📷 Escolher Imagem
     </button>
 
+    <input
+        type="file"
+        id="imageInput"
+        accept="image/*"
+        style="display:none;">
+
+    <br><br>
+
+    <img
+        id="preview"
+        src=""
+        style="
+        display:none;
+        max-width:100%;
+        border-radius:10px;
+        border:2px solid #555;">
+
     <button id="generateButton">
-        Gerar Código
+        🎨 Gerar Código
     </button>
 
     <div id="result">
-        Resultado aparecerá aqui.
+        Nenhum código gerado.
     </div>
 
 </div>
@@ -33,4 +51,5 @@
 <script src="app.js"></script>
 
 </body>
+
 </html>

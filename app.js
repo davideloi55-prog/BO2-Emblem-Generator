@@ -1,3 +1,5 @@
+alert("JavaScript carregado!");
+
 document.addEventListener("DOMContentLoaded", () => {
 
     const imageInput = document.getElementById("imageInput");

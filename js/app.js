@@ -37,7 +37,9 @@ document.addEventListener("DOMContentLoaded", () => {
             result.innerHTML = "⚠️ Escolhe primeiro uma imagem.";
             return;
         }
+const prompt = document.getElementById("promptInput").value;
 
+const settings = Interpreter.interpret(prompt);
         const imageData = Analyzer.analyze(imageInput.files[0]);
 
 Debug.log("📷 Objeto recebido pelo App");

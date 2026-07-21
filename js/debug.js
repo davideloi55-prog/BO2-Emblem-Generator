@@ -1,1 +1,7 @@
-console.log("Debug iniciado!");
+function debug(message){
+
+    console.log("[DEBUG] " + message);
+
+}
+
+debug("Sistema iniciado");

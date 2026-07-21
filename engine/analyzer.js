@@ -6,12 +6,15 @@ const Analyzer = {
 
         const imageData = {
 
+            name: file.name,
+
+            type: file.type,
+
+            size: file.size,
+
             width: 0,
+
             height: 0,
-
-            format: "",
-
-            size: 0,
 
             colors: [],
 
@@ -21,7 +24,11 @@ const Analyzer = {
 
         };
 
-        Debug.log("📦 ImageData criado");
+        Debug.log("📄 Nome: " + imageData.name);
+
+        Debug.log("🗂 Tipo: " + imageData.type);
+
+        Debug.log("💾 Tamanho: " + Math.round(imageData.size / 1024) + " KB");
 
         return imageData;
 

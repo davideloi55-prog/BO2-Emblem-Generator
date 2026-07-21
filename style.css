@@ -93,3 +93,28 @@ button,
     resize:vertical;
 
 }
+#debugPanel{
+
+    background:#111;
+
+    color:#00ff66;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    font-family:monospace;
+
+    font-size:14px;
+
+    text-align:left;
+
+    max-height:220px;
+
+    overflow-y:auto;
+
+    white-space:pre-wrap;
+
+    margin-top:10px;
+
+}

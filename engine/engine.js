@@ -2,7 +2,7 @@ const Engine = {
 
     start() {
 
-        console.log("🟢 Engine iniciado!");
+        debug.log("🟢 Engine iniciado!");
 
     }
 

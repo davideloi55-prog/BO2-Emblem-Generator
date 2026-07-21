@@ -1,7 +1,27 @@
-function debug(message){
+const Debug = {
 
-    console.log("[DEBUG] " + message);
+    panel: null,
 
-}
+    init() {
 
-debug("Sistema iniciado");
+        this.panel = document.getElementById("debugPanel");
+
+        this.log("🟢 Debug iniciado");
+
+    },
+
+    log(message) {
+
+        if (!this.panel) return;
+
+        this.panel.innerHTML += "<br>" + message;
+
+    }
+
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    Debug.init();
+
+});

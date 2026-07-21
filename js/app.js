@@ -38,8 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        result.innerHTML = "🚧 Gerador BO2 em desenvolvimento...";
+        Analyzer.analyze(imageInput.files[0]);
 
+result.innerHTML = "🧠 A analisar imagem...";
     });
 
 });

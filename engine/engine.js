@@ -1,11 +1,1 @@
-const Engine = {
-
-    start() {
-
-        Debug.log("🟢 Engine iniciado!");
-
-    }
-
-};
-
-Engine.start();
+alert("🟢 Engine carregado!");

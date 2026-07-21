@@ -38,8 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        Analyzer.analyze(imageInput.files[0]);
+        const imageData = Analyzer.analyze(imageInput.files[0]);
 
+Debug.log("📷 Objeto recebido pelo App");
 result.innerHTML = "🧠 A analisar imagem...";
     });
 

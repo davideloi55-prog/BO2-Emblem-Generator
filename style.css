@@ -95,26 +95,12 @@ button,
 }
 #debugPanel{
 
-    background:#111;
+    background:red;
 
-    color:#00ff66;
+    color:yellow;
 
-    padding:15px;
+    padding:20px;
 
-    border-radius:10px;
-
-    font-family:monospace;
-
-    font-size:14px;
-
-    text-align:left;
-
-    max-height:220px;
-
-    overflow-y:auto;
-
-    white-space:pre-wrap;
-
-    margin-top:10px;
+    border:5px solid lime;
 
 }

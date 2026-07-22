@@ -1,0 +1,1 @@
+Vectorizer.start(image)
